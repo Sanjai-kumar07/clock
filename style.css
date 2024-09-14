@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url(clock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+}
+
+.container
+{   
+    height: 100vh;
+    background-image: none;
+    background-color: transparent;
+    width: 400px;
+}
+
+.Clock 
+{
+    padding: 50px;
+    background-image: none;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 0px 7px 10px rgba(102,208,192,0.75);
+    border-radius: 10px;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -60%);
+    position: absolute;
+}
+.Clock span
+{
+    display: inline-block;
+    text-align: center;
+    background: none;
+    font-size: 50px;
+}
+.time
+{
+    background: none;
+}
+#ampm
+{
+    font-size: 30px;
+}
